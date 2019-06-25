@@ -5,6 +5,7 @@ body{
   margin: 0px;
 }
 
+<<<<<<< Updated upstream
 .description{
   position: relative;
   color: green;
@@ -15,6 +16,8 @@ body{
   margin-top: 3%;
 }
 
+=======
+>>>>>>> Stashed changes
 .author-link {
   font-family: 'Slabo 27px', serif;
 }
