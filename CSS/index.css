@@ -5,19 +5,6 @@ body{
   margin: 0px;
 }
 
-<<<<<<< Updated upstream
-.description{
-  position: relative;
-  color: green;
-  font-family: 'Slabo 27px', serif;
-  font-weight: normal;
-  font-size: 25px;
-  text-align: left;
-  margin-top: 3%;
-}
-
-=======
->>>>>>> Stashed changes
 .author-link {
   font-family: 'Slabo 27px', serif;
 }

@@ -1,29 +1,13 @@
 body{
   background-image: url("../IMAGES/coffeepic.jpg");
-<<<<<<< Updated upstream
-  background-size: contain;
-  font-family: 'Slabo 27px', serif;
-}
-
-img {
-  width: 900px;
-  height: 600%;
-}
-
-=======
   background-size: cover;
   font-family: 'Slabo 27px', serif;
 }
 
->>>>>>> Stashed changes
 .jumbotron{
   background-color: pink;
   color:white;
   border-radius: 20px;
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 }
 
 .container {
@@ -32,15 +16,6 @@ img {
 
 .navbar-brand {
   font-family: 'Slabo 27px', serif;
-<<<<<<< Updated upstream
-  color: #6F411C;;
-}
-
-.navbar-brand, .nav-link, .dropdown-item {
-  color: #6F411C;;
-}
-
-=======
   color: #6F411C;
 }
 
@@ -52,7 +27,6 @@ img {
   color: #6F411C;;
 }
 
->>>>>>> Stashed changes
 .nav-link:hover {
   color: black;
 }
