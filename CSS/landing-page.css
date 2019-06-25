@@ -1,38 +1,47 @@
 body{
-  background-image: url(file:///Users/annabelbarham/Documents/Coding%20Course/Code-First-Project/IMAGES/coffeepic.jpg);
+  background-image: url('../IMAGES/coffeepic.jpg');
   background-size: cover;
+  font-family: 'Slabo 27px', serif;
   margin: 0px;
 }
 
 .description{
+  position: relative;
   color: green;
+  font-family: 'Slabo 27px', serif;
+  font-weight: normal;
+  font-size: 25px;
+  text-align: left;
+  margin-top: 3%;
 }
 
 .author-link {
-    font-family: 'Slabo 27px', serif;
+  font-family: 'Slabo 27px', serif;
 }
+
 a {
-    color: Orange;
-    font-weight: bold;
+  color: #6F411C;
+  font-weight: bold;
 }
 
 a:hover {
-    color: blue;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 h1 {
-    font-size: 30px;
+  font-size: 27px;
 }
 
 .navbar-brand {
-font-family: 'Slabo 27px', serif;
-font-size: 50px;
-margin:0px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 50px;
+  font-weight: normal;
+  position: relative;
 }
 
 #coffee-works {
-  color: brown;
+  color: #6F411C;
 }
 
 .coffeeheader {
@@ -40,126 +49,158 @@ margin:0px;
   font-size: 30px;
 }
 
-.jumbotron {
+.container {
   background-color: pink;
   border-radius: 30px;
-  margin-left: 20px;
-  margin-right: 20px;
-  padding: 5px;
+  padding: 30px;
+  margin-top: 30px;
 }
 
 .fullpage {
   height: 90vh;
   width: 90vw;
-  }
+}
 
 .halfheight{
-    height: 50%;
-  }
+  height: 50%;
+}
 
-  .mobileheight {
-    position: relative;
-  }
+.mobileheight {
+  position: relative;
+}
 
-  .coffeeheader {
-      position: absolute;
-      text-align: center;
-      top: 90%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
+.coffeeheader {
+  position: absolute;
+  text-align: center;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 .img1{
-    background-image: url(file:///Users/annabelbarham/Documents/Coding%20Course/Code-First-Project/IMAGES/Cappuccino.jpg);
-    background-size: cover;
-    background-position: center;
-  }
+  background-image: url('../IMAGES/Cappuccino LP.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius:30px;
+}
 
 .img2{
-    background-image: url(file:///Users/annabelbarham/Documents/Coding%20Course/Code-First-Project/IMAGES/Americano.jpg);
-    background-size: cover;
-    background-position: center;
-  }
+  background-image: url('../IMAGES/Americano LP brown.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius:30px;
+}
 
 .img3{
-    background-image: url(file:///Users/annabelbarham/Documents/Coding%20Course/Code-First-Project/IMAGES/Espresso%20lp.jpg);
-    background-size: cover;
-    background-position: center;
-  }
+  background-image: url('../IMAGES/Espresso LP brown.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius:30px;
+}
 
 .img4{
-    background-image: url(file:///Users/annabelbarham/Documents/Coding%20Course/Code-First-Project/IMAGES/Mocha%20main.jpg.jpg);
-    background-size: cover;
-    background-position: center;
-  }
+  background-image: url('../IMAGES/Flat white LP brown.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius:30px;
+}
 
 .img5{
-    background-image: url(file:///Users/annabelbarham/Documents/Coding%20Course/Code-First-Project/IMAGES/Mocha%20main.jpg);
-    background-size: cover;
-    background-position: center;
-  }
+  background-image: url('../IMAGES/Espresso Macchiato LP brown.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius:30px;
+}
 
 .img6{
-    background-image: url(file:///Users/annabelbarham/Documents/Coding%20Course/Code-First-Project/IMAGES/Latte.jpg);
-    background-size: cover;
-    background-position: center;
+  background-image: url('../IMAGES/Mocha LP brown.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius:30px;
 }
 
 .img7{
-    background-image: url(file:///Users/annabelbarham/Documents/Coding%20Course/Code-First-Project/IMAGES/Caffe%20Latte%20LP.jpg);
-    background-size: cover;
-    background-position: center;
+  background-image: url('../IMAGES/Caffe Latte LP brown.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius:30px;
 }
 .img8{
-    background-image: url(file:///Users/annabelbarham/Documents/Coding%20Course/Code-First-Project/IMAGES/Latte.jpg);
-    background-size: cover;
-    background-position: center;
+  background-image: url('../IMAGES/Cafe au Lait LP.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius:30px;
 }
 
 h3 {
   text-align: center;
+  color: #6F411C;
+  font-family: 'Slabo 27px', serif;
+
+}
+form {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.jumbotron {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 40px;
+  border-radius: 30px;
 }
 
 #social-buttons button {
-    color: white
+  color: white
 }
 .btn-twitter {
-    background: #00acee;
-    border-color: #009ad5;
+  background: #00acee;
+  border-color: #009ad5;
 }
 .btn-facebook {
-    background: #4868ac;
-    border-color: #314776;
+  background: #4868ac;
+  border-color: #314776;
 }
 .btn-pinterest {
-    background: #b62f26;
-    border-color: #b62f26;
+  background: #b62f26;
+  border-color: #b62f26;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 750px){
 
   .mobileheight {
-        height: 100vh;
-    }
+    height: 100vh;
+  }
 
-    .halfheight {
-        height: auto;
-    }
-    .buttons-center {
-        margin-bottom: 20px;
-        transform: translate(18%, 20%);
-    }
-    .desktop-buttons {
-        visibility: hidden;
-    }
-    .mobile-buttons{
-        visibility: visible;
-    }
+  .halfheight {
+    height: auto;
+  }
+  .buttons-center {
+    margin-bottom: 20px;
+    transform: translate(18%, 20%);
+  }
+  .desktop-buttons {
+    visibility: hidden;
+  }
+  .mobile-buttons{
+    visibility: visible;
+  }
 
-    h1 {
-        font-size: 36px;
-    }
+  .container {
+    height: auto;
+  }
+  h1 {
+    font-size: 36px;
+  }
 
-    .descrip{
-        margin-top: 0%
-    }
+  form {
+    position: relative;
+  }
+
+  body {
+    background-size: contain;
+  }
+  .descrip{
+    margin-top: 0%
+  }
